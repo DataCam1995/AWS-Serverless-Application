@@ -21,3 +21,4 @@ def lambda_handler(event, context):
             'statusCode': 201,
             'body': json.dumps({'message': 'Item added'})
         }
+Add Lambda function for CRUD API
